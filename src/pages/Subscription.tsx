@@ -17,23 +17,24 @@ const Subscription = () => {
         "Real-time Monitoring",
         "Email Alerts",
         "Basic Reporting",
-        "5 Devices Coverage"
+        "3 Devices Coverage"
       ],
       popular: false,
       buttonText: "Get Started"
     },
     {
       name: "Professional Shield",
-      price: "$14.99",
+      price: "$79.99",
       period: "/month",
       description: "Advanced protection for growing businesses",
       icon: <Zap className="h-8 w-8 text-secondary" />,
       features: [
-        "Everything in Basic",
+        "Everything in Basic + Centralized Dashboard",
+        "Easy Team Onboarding",
         "Advanced AI Analytics",
         "24/7 Phone Support",
         "Custom Reports",
-        "25 Devices Coverage",
+        "10 Devices Coverage",
         "Priority Response"
       ],
       popular: true,
@@ -41,7 +42,7 @@ const Subscription = () => {
     },
     {
       name: "Enterprise Fortress",
-      price: "$49.99",
+      price: "$199.99",
       period: "/month",
       description: "Complete cybersecurity suite for enterprises",
       icon: <Crown className="h-8 w-8 text-primary" />,
@@ -52,7 +53,8 @@ const Subscription = () => {
         "Unlimited Devices",
         "White-label Reporting",
         "SLA Guarantee",
-        "On-site Training"
+        "On-site Training",
+        "50 to 80 devices Coverage"
       ],
       popular: false,
       buttonText: "Contact Sales"
@@ -216,7 +218,7 @@ const Subscription = () => {
                 Proven Results
               </h3>
               <p className="text-muted-foreground">
-                Trusted by thousands of organizations worldwide
+                Powered by devs, trusted by users
               </p>
             </div>
           </div>

@@ -134,7 +134,7 @@ const Index = () => {
             Ready to Secure Your Future?
           </h2>
           <p className="text-xl text-background/80 mb-8 max-w-2xl mx-auto">
-            Join thousands of organizations already protected by AI Hunter Sentinel
+            Join hundreds of organizations already protected by AI Hunter Sentinel
           </p>
           <Link to="/subscription">
             <Button 

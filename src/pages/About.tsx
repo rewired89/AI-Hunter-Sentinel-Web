@@ -63,7 +63,7 @@ const About = () => {
                 learns, adapts, and evolves with emerging threats.
               </p>
               <p className="text-lg text-muted-foreground">
-                We're not just another cybersecurity company – we're pioneers in AI-driven 
+                We're not just another cybersecurity company, we're pioneers in AI-driven 
                 protection, combining advanced machine learning algorithms with real-time 
                 threat intelligence to create an impenetrable digital shield for your organization.
               </p>
@@ -127,7 +127,7 @@ const About = () => {
               Expert Team
             </h2>
             <p className="text-lg text-muted-foreground mb-8">
-              Our team consists of cybersecurity experts, AI researchers, and software engineers 
+              Our team consists of cybersecurity experts, AI researchers, and Software engineers 
               who are passionate about protecting the digital world. With decades of combined 
               experience in cybersecurity and artificial intelligence, we're constantly pushing 
               the boundaries of what's possible in threat detection and prevention.
@@ -147,7 +147,7 @@ const About = () => {
                 </div>
                 <div>
                   <h4 className="font-semibold mb-2">Proven Results</h4>
-                  <p className="text-sm">Trusted by organizations worldwide</p>
+                  <p className="text-sm">Powered by devs, trusted by users</p>
                 </div>
               </div>
             </div>

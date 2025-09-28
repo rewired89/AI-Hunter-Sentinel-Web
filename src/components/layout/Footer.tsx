@@ -1,24 +1,27 @@
-import { Shield, Mail, Phone, MapPin } from "lucide-react";
+// src/components/Footer.tsx
+import { Mail, Phone, MapPin } from "lucide-react";
 import { Link } from "react-router-dom";
+import logo from "@/assets/aihs-logo.png";
 
 const Footer = () => {
   return (
-    <footer className="bg-card border-t border-border">
+    <footer className="bg-card border-t border-border text-card-foreground"> {/* was bg-card */}
       <div className="container mx-auto px-4 sm:px-6 lg:px-8 py-12">
         <div className="grid grid-cols-1 md:grid-cols-4 gap-8">
           {/* Logo and Description */}
           <div className="col-span-1 md:col-span-2">
             <div className="flex items-center space-x-3 mb-4">
-              <div className="relative">
-                <Shield className="h-8 w-8 text-primary" />
-                <div className="absolute inset-0 h-8 w-8 bg-primary/20 rounded-full blur-lg" />
-              </div>
+              <img
+                src={logo}
+                alt="AI Hunter Sentinel"
+                className="h-8 w-auto"
+              />
               <span className="text-xl font-bold bg-gradient-cyber bg-clip-text text-transparent">
                 AI Hunter Sentinel
               </span>
             </div>
             <p className="text-muted-foreground mb-4 max-w-md">
-              Advanced AI-powered cybersecurity solutions protecting your digital assets 
+              Advanced AI-powered cybersecurity solutions protecting your digital assets
               with cutting-edge threat detection and real-time monitoring.
             </p>
           </div>
@@ -64,14 +67,14 @@ const Footer = () => {
               </li>
               <li className="flex items-center text-muted-foreground">
                 <MapPin className="h-4 w-4 mr-2 text-primary" />
-                San Francisco, CA
+                Miami, FL
               </li>
             </ul>
           </div>
         </div>
 
         <div className="border-t border-border mt-8 pt-8 text-center text-muted-foreground">
-          <p>&copy; 2024 AI Hunter Sentinel. All rights reserved.</p>
+          <p>&copy; 2025 AI Hunter Sentinel. All rights reserved.</p>
         </div>
       </div>
     </footer>
